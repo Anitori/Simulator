@@ -29,15 +29,17 @@
                 <div id="box-interno">
 
                     <div id="tittleTwo"> Seleccione las opciones donde regularizó: </div>
+                    <form method="">
                     <div id="cl"> Ciclo lectivo
-                    <select name="Ciclo-lectivo">
+                   
+                    <select name="Ciclo-lectivo" id="Ciclo-lectivo">
 
-                        <option value="1">2017</option>
-                        <option value="2">2018</option>
-                        <option value="3">2019</option>
-                        <option value="4">2020</option>
-                        <option value="5">2021</option>
-                        <option value="6">2022</option>
+                        <option value="1" >2017</option>
+                        <option value="2" >2018</option>
+                        <option value="3" >2019</option>
+                        <option value="4" >2020</option>
+                        <option value="5" >2021</option>
+                        <option value="6" >2022</option>
                         
                     </select>
                     </div>
@@ -45,11 +47,18 @@
                     <div id="cl"> Semestre
                         <select name="Semestre">
     
-                            <option value="primero">Primero</option>
-                            <option value="segundo">Segundo</option>
+                            <option value="primero" id="primero">Primero</option>
+                            <option value="segundo" id="segundo">Segundo</option>
+                            <option value="anual" id="anual">Anual</option>
                             
                         </select>
                     </div>
+
+                    <button id=btnSave> Calcular</button>
+
+                </form>
+
+                <div id="boxFinal">  </div>
 
                 </div>
             </div>
@@ -69,6 +78,6 @@
          
          </footer>
     </div>
-
+<script src="/js/app.js"></script>
 </body>
 </html>
