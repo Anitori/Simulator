@@ -166,6 +166,13 @@ select{
         color: var(--main-color);
     }
 
+    option{
+        background-color: white;
+    }
+    .selects{
+        background-color: white;
+    }
+
 
     @media (min-width: 380px) and (max-width: 450px) {
 
